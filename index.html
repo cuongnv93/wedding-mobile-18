@@ -6684,7 +6684,28 @@
 
 
 
+    <script>
+        document.addEventListener('keydown', function (e) {
+            // F12
+            if (e.key === 'F12' || e.keyCode === 123) {
+                e.preventDefault();
+                return false;
+            }
 
+            // Ctrl+Shift+I or Ctrl+Shift+J or Ctrl+U or Ctrl+S
+            if ((e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
+                (e.ctrlKey && (e.key === 'U' || e.key === 'S'))) {
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+    </script>
 
 
     <script async src="/address_wc/address.84.min.js?v=1" id="init-address-84"></script>
@@ -7200,12 +7221,13 @@
 
 
 
-    <script type="text/javascript" src="/webcake/v4/0879e98f-b02d-464e-9bb0-d14c832c107a?v=1"></script>
+    <script type="text/javascript"
+        src="https://ewedinvite.site/webcake/v4/0879e98f-b02d-464e-9bb0-d14c832c107a?v=1"></script>
 
 
 
     <img height="1" width="1" alt="" style="display:none"
-        src="/page_view.gif?pid=934deb25-4457-4f9d-b81e-fab2697e72bf" />
+        src="https://ewedinvite.site/page_view.gif?pid=934deb25-4457-4f9d-b81e-fab2697e72bf" />
 
 
 
